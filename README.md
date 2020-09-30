@@ -4,7 +4,7 @@ There are 3 difficulty settings: easy, medium and hard. Minimax searches 3, 5 an
 moves ahead respectively for each difficulty setting.
 
 # Compile and Run
-javac Main.java ConnectFourGUI.java
+javac Main.java ConnectFourGUI.java <br>
 java Main.java
 
 # Dependencies
