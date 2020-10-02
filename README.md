@@ -4,7 +4,7 @@ The algorithm searches 4 moves ahead i.e. it has a depth of 4.
 
 # Evaluation Function
 Counts all the possible fours (winning streaks) that both players can make and subtracts
-from one another <br> depending on the player. In a 6x7 board, the possible fours are: <br>
+from one another depending on the player. In a 6x7 board, the possible fours are: <br>
 
 horizontal: 24 <br>
 vertical: 21 <br>
