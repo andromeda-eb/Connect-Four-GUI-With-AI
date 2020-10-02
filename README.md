@@ -4,13 +4,13 @@ The algorithm searches 4 moves ahead i.e. it has a depth of 4.
 
 # Evaluation Function
 Counts all the possible fours (winning streaks) that both players can make and subtracts
-from one another <br> depending on the player. In a 6x7 board, the possible fours are: <br><br>
+from one another <br> depending on the player. In a 6x7 board, the possible fours are: <br>
 
 horizontal: 24 <br>
 vertical: 21 <br>
 diagonals: 24 <br>
 
-So 69 possible fours altogether. If the first move of user is bottom left then number of possible fours for AI is 66.
+There are 69 possible fours altogether. If the first move of user is bottom left then number of possible fours for AI is 66.
 AI cannot get 1 diagonal, 1 vertical and 1 horizontal winning streak from the bottom left cell. So by default it will
 try to acquire the middle cell on its first turn as that is the column that holds the most control of the board.
 
