@@ -332,6 +332,7 @@ public class ConnectFourGUI extends JFrame
 
     private int evaluate(Color currentPlayer, int depth)
     {
+        // return infinity if a winning streak is found
         if(findEqualsFour(currentPlayer, false))
         {
             if(currentPlayer.equals(this.ai))
