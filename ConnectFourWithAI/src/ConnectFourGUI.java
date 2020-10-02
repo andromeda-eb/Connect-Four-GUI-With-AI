@@ -26,9 +26,6 @@ public class ConnectFourGUI extends JFrame
     private int depthLimit;
     private int rows;
     private int columns;
-    private int easy;
-    private int medium;
-    private int hard;
     private Font font;
 
     public ConnectFourGUI()
